@@ -5,20 +5,11 @@ import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import TripCard from "./components/trips/TripCard";
 import TripDetails from "./components/trips/TripDetails";
+import AgadirActivitiesHome from "./pages/Home";
+import './App.css';
 
 export default function App() {
   return (
-    <Router>
-      <Navbar />
-
-      <div className="container mx-auto px-4 py-10">
-        <Routes>
-          <Route path="/" element={<TripList />} />
-          <Route path="/trips/:slug" element={<TripDetails />} />
-        </Routes>
-      </div>
-
-      <Footer />
-    </Router>
+   <AgadirActivitiesHome />
   );
 }
