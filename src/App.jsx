@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link, useParams } from "react-router-dom";
-import {
-  Menu, X, Star, Clock, Euro, CheckCircle, XCircle,
-  Facebook, Instagram, Mail, Phone, MapPin, Calendar
-} from "lucide-react";
-
+import {Menu, X, Star, Clock, Euro, CheckCircle, XCircle,Mail, Phone, MapPin, Calendar} from "lucide-react";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import TripCard from "./components/trips/TripCard";
